@@ -1,12 +1,12 @@
 
 public class ShuangLib {
 	
-	public String dateString() {
-		return null;
+	public String dateStr () {
+		return dd + "-" + mm + "-" + yyyy;
 		
 	}
 	
-	public String cutOut() {
+	public String cutOut(String mainStr, String subStr) {
 		return null;
 		
 	}
@@ -17,6 +17,5 @@ public class ShuangLib {
 		
 	}
 	
-	
-	
+
 }

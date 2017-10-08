@@ -1,7 +1,7 @@
 
 public class main {
 
-	public main(String [] args) {
+	public  main(String [] args) {
 		
 		dateStr();
 		cutOut();
@@ -9,4 +9,5 @@ public class main {
 		
 		
 	}
-}
+
+	
