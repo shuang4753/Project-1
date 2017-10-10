@@ -2,6 +2,11 @@
 public class ShuangLib {
 	
 	public static String dateStr () {
+		int dd = 1;
+		int mm = 1;
+		int yyyy= 0;
+			
+			if (dd>1 && dd<31)
 		return dd + "-" + mm + "-" + yyyy;
 		
 	}
