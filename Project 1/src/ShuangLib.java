@@ -1,13 +1,18 @@
 
 public class ShuangLib {
 	
-	public String dateStr () {
+	public static String dateStr () {
 		return dd + "-" + mm + "-" + yyyy;
 		
 	}
 	
-	public String cutOut(String mainStr, String subStr) {
-		return null;
+	public static String cutOut(String mainStr, String subStr) {
+		String s1= mainStr;
+		String s2= s1.substring(0,2);
+		int len= s1.length();
+		
+		if (len>5)
+			return s2;
 		
 	}
 	
