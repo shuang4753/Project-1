@@ -2,8 +2,8 @@
 public class Runner {
 
 	public static void main(String[] args) {
-		
-		NHuynhLib.isFibonacci(1);
+		NHuynhLib.isPalindrome(qwer);
+		NHuynhLib.isFibonacci(2);
 		NHuynhLib.sumUpTo();
 		
 	}
