@@ -6,7 +6,7 @@ public class NHuynhLib {
 		int left = 0;
 		int right = a.length() - 1;
 			while (left < right)
-				if (a.charAt(left ++) == a.charAt(right--))
+				if ((a.charAt(left ++)) == (a.charAt(right--)))
 					return;
 					
 	}	
