@@ -33,8 +33,8 @@ public class NhuynhLib {
 	public static void sumUpTo(int a)
 	{
 		int b = 0;
-			for(int c = 0; c <= 0; c++)
-				b = c + a;
+			for(int i = 0; i <= a; i++)
+				b = i + a;
 		System.out.println (b);
 			
 	}
