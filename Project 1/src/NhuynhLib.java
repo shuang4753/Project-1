@@ -36,7 +36,6 @@ public class NhuynhLib {
 			for(int i = 0; i <= a; i++)
 				b = i + a;
 		System.out.println (b);
-			
 	}
 }
 
