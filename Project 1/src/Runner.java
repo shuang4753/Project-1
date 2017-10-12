@@ -6,6 +6,9 @@ public class Runner {
 		ShuangLib.dateStr();
 		ShuangLib.cutOut();
 		ShuangLib.quadraticSolver();
+		NhuynhLib.isFibonacci(8);
+		NhuynhLib.isPalindrome();
+		NhuynhLib.sumUpTo();
 		
 	}
 
