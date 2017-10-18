@@ -31,13 +31,15 @@ public class NhuynhLib {
 					return false;
 	}
 
-	/*public static int sumUpTo(int a)
+	public static int sumUpTo(int a)
 	{	
-		while (a > 0) {
-			int sum = (a*(a+1))/2;
-		}
-		
-		System.out.print(sum);
-	}*/
+		{
+		int x = 0;
+		while (a >= 1);
+			a = a+x;
+			 x++;
+	}
+	 ;
+}
 }
 
