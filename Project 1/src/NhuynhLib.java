@@ -2,15 +2,15 @@
 public class NhuynhLib {
 
 
-	public static String isPalindrome(String a)
+	public static boolean isPalindrome(String a)
 	{
 		
 		int left = 0;
 		int right = a.length() - 1;
 			while (left < right)
 				if ((a.charAt(left ++)) == (a.charAt(right--)))
-					return a;
-			return "not a palindrome";
+					return true;
+			return false;
 					
 	}	
 	
@@ -31,13 +31,13 @@ public class NhuynhLib {
 					return false;
 	}
 
-	public static int sumUpTo(int a)
+	/*public static int sumUpTo(int a)
 	{	
 		while (a > 0) {
 			int sum = (a*(a+1))/2;
 		}
 		
 		System.out.print(sum);
-	}
+	}*/
 }
 

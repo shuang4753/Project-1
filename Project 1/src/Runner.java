@@ -9,7 +9,7 @@ public class Runner {
 		System.out.println();
 		System.out.println(NhuynhLib.isFibonacci(7));
 		System.out.println(NhuynhLib.isPalindrome("tacocat"));
-		System.out.println(NhuynhLib.sumUpTo(1));
+		//System.out.println(NhuynhLib.sumUpTo(1));
 		
 	}
 
