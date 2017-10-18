@@ -33,13 +33,13 @@ public class NhuynhLib {
 
 	public static int sumUpTo(int a)
 	{	
+		int sum= 0;
+		for (int x = 0; x<=a ; x++)
 		{
-		int x = 0;
-		while (a >= 1);
-			a = a+x;
-			 x++;
+			sum= sum + x;
+		}
+		return sum;
+	 
 	}
-	 ;
-}
 }
 
