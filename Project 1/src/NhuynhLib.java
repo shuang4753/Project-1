@@ -32,12 +32,12 @@ public class NhuynhLib {
 	}
 
 	public static int sumUpTo(int a)
-	{
-		int b = 0;
-			for(int i = 0; i < a; i++)
-				b = i + a;
+	{	
+		while (a > 0) {
+			int sum = (a*(a+1))/2;
+		}
 		
-		return b;
+		System.out.print(sum);
 	}
 }
 
