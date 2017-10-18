@@ -1,7 +1,7 @@
 
 public class ShuangLib {
 	
-	
+
 	public static String dateStr (String date) 
 	{
 		String mm = (date.substring(0,2)); //month number is found in index 0-2
